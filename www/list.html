@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Red Hat Demo</title>
+    
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above -->
+    <link href="css/ionic.app.css" rel="stylesheet">
+
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="starter">
+
+    <ion-pane>
+      <ion-header-bar class="bar-header bar-assertive">
+        <div class="h1 title">Red Hat Demo</div>
+         <button class="button button-clear button-light ">Draw</button>        
+      </ion-header-bar>
+      <ion-content>
+
+        <div class="list card">
+          <div class="item item-image">
+            <img src="http://www.heyuguys.com/images/2014/02/Lego-Star-Wars.jpg">
+          </div>
+          <a class="item item-icon-left assertive" href="#">
+            <i class="icon ion-ios-cloud-outline"></i>
+            Go to container
+          </a>
+        </div>      
+
+        <div class="list card">
+          <div class="item item-image">
+            <img src="http://www.starwars7news.com/wp-content/uploads/2015/02/LEGO-Star-Wars.jpg">
+          </div>
+          <a class="item item-icon-left assertive" href="#">
+            <i class="icon ion-ios-cloud-outline"></i>
+            Go to container
+          </a>
+        </div>      
+
+        <div class="list card">
+          <div class="item item-image">
+            <img src="http://s.pro-gmedia.com/videogamer/media/images/pub/large/lego_star_wars_3_clone_wars.jpg">
+          </div>
+          <a class="item item-icon-left assertive" href="#">
+            <i class="icon ion-ios-cloud-outline"></i>
+            Go to container
+          </a>
+        </div>      
+
+        <div class="container">
+          <button class="button button-block button-positive">
+            <i class="icon ion-ios-cloud-upload-outline"></i>
+             Draw another sketch
+          </button>
+        </div>
+      
+      </ion-content>
+    </ion-pane>
+  </body>
+</html>
